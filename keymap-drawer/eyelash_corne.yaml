@@ -14,7 +14,7 @@ layers:
   - O
   - P
   - $$mdi:keyboard-esc$$
-  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - $$mdi:apple-keyboard-shift$$
   - A
   - S
   - D
