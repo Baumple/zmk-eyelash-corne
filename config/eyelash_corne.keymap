@@ -37,14 +37,23 @@
             bindings = <&kp LEFT_SHIFT>, <&kp CAPS>;
         };
 
-        new_behaviour: new_behaviour {
+        shift_escape: shift_escape {
             compatible = "zmk,behavior-hold-tap";
-            label = "NEW_BEHAVIOUR";
+            label = "SHIFT_ESCAPE";
             bindings = <&mt>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <120>;
+            tapping-term-ms = <140>;
             flavor = "tap-preferred";
+        };
+
+        layer_thingy: layer_thingy {
+            compatible = "zmk,behavior-hold-tap";
+            label = "LAYER_THINGY";
+            bindings = <&lt>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <140>;
         };
     };
 
